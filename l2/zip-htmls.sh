@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+find . -name '*.html' -print0 | xargs -0 zip htmls.zip
